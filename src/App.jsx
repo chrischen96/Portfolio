@@ -1,10 +1,9 @@
 import { Route, Routes} from 'react-router-dom'
-import Nav from './components/Nav'
 import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
 import './App.css'
-import Header from './components/header'
+import Header from './components/Header'
 
 function App() {
   return (
