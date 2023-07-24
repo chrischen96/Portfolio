@@ -1,27 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+  font-family: 'Jost', sans-serif;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 46px;
+  padding: 0;
   will-change: filter;
   transition: filter 300ms;
+  border-radius: 23px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 1em #61dafbaa);
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -33,26 +37,84 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
 }
 
-.app {
-
-}
-
 .header {
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
+  padding: 1em;
+  background-color: whitesmoke;
+  width: 100%;
 }
 
-.nav {
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
+.scrollspy {
+  height: calc(100vh - 150px);
+  position: relative;
+  overflow-y: scroll
+}
+
+.footer {
+  padding: 1em;
+  background-color: whitesmoke;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+/* homepage */
+.home {
+  /* background-image: url('/src/assets/IMG_2129.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.5; */
+  position: relative;
+  height: 600px;
+}
+
+.home > img{
+  width: 100%;
+  height: 100%;
+  object-fit: bottom;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.home .content {
+  background-color: rgba(5, 70, 94, 0.5);
+  /* opacity: 0.8; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.home .card {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 2em;
+  margin: 2em;
+  min-width: 720px;
+  min-height: 300px;
+  width: 800px;
+  height: 300px;
+  max-width: 90%;
+  align-self: center;
+}
+
+.card-portrait {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+
 }
