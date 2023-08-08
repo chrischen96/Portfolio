@@ -56,6 +56,18 @@
   overflow-y: scroll
 }
 
+@media screen and (max-width: 575px) {
+  .scrollspy {
+    height: calc(100vh - 157px);
+  }
+}
+
+@media screen and (max-width: 483px) {
+  .scrollspy {
+    height: calc(100vh - 219px);
+  }
+}
+
 .footer1 {
   padding: 1em;
   background-color: whitesmoke;
@@ -103,7 +115,7 @@ article {
   border-radius: 10px;
   padding: 2em;
   margin: 2em;
-  min-width: 600px;
+  /* min-width: 600px; */
   min-height: 300px;
   width: 800px;
   height: 380px;
@@ -117,6 +129,13 @@ article {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 632px) {
+  #invis-port {
+    display: none;
+  }
+}
+
 
 .card-portrait {
   height: 150px;
@@ -140,7 +159,7 @@ article {
 }
 
 .edu .resume-item {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 
@@ -159,7 +178,7 @@ article {
 }
 
 .exp .resume-item {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 

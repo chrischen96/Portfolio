@@ -6,13 +6,12 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="">
           <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center">
-            <h6 className='mx-3 my-0'>Contact me</h6>
             <h6 className='mx-3 my-0'>
-              <i className="bi bi-telephone"></i>
+              <i className="bi bi-telephone me-2"></i>
               6262772296
             </h6>
             <h6 className='mx-3 my-0'>
-              <i className="bi bi-envelope"></i>
+              <i className="bi bi-envelope me-2"></i>
               xinchen.20@ucl.ac.uk
             </h6>
             <ul className="list-unstyled d-flex ms-auto my-0">
