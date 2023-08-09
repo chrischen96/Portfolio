@@ -3,7 +3,7 @@ import portrait from "../assets/portrait.jpg"
 
 const About = () => {
     return (
-        <article className="home" id="home">
+        <article className="home mb-4" id="home">
             <img src={la} alt="" />
             <div className="content ">
                 <div className="infocard card rounded-0 p-4 justify-content-center">

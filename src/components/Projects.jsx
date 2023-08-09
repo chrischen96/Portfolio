@@ -5,7 +5,7 @@ import gotrip from '../assets/gotrip.png'
 
 const Projects = () => {
     return (
-        <article className="projects mb-5" id="projects">
+        <article className="projects mb-3" id="projects">
             <div className="container-fluid">
 
                 <div className="row">
@@ -15,7 +15,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className="row">
+                <div className="row mb-3">
                     <div className="col-12">
                         <h2 className="section-subtitle my-4">MyGallery</h2>
                         <p className='text-start px-4'>
@@ -30,14 +30,14 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className="col-12">
-                        <div className="resume-item mb-5">
+                        <div className="resume-pic mb-5">
                             <img className='w-100' src={mygallery} alt="" />
                         </div>
                     </div>
                 </div>
 
 
-                <div className="row">
+                <div className="row mb-3">
                     <div className="col-12">
                         <h2 className="section-subtitle my-4">CalSki</h2>
                         <p className='text-start px-4'>
@@ -52,17 +52,17 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className="col-12">
-                        <div className="resume-item mb-5">
+                        <div className="resume-pic mb-5">
                             <img className='w-100' src={calskihome} alt="" />
                         </div>
-                        <div className="resume-item mb-5">
+                        <div className="resume-pic mb-5">
                             <img className='w-100' src={calski} alt="" />
                         </div>
                     </div>
                 </div>
 
 
-                <div className="row">
+                <div className="row mb-3">
                     <div className="col-12">
                         <h2 className="section-subtitle my-4">GoTrip</h2>
                         <p className='text-start px-4'>
@@ -77,22 +77,25 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className="col-12">
-                        <div className="resume-item text-start">
+                        <div className="resume-pic mb-5">
                             <img className='w-100' src={gotrip} alt="" />
                         </div>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row mb-3">
                     <div className="col-12">
-                        <h2 className="section-subtitle my-4">Auction E-Commerce</h2>
+                        <h2 className="section-subtitle my-4">TrachePass</h2>
                         <p className='text-start px-4'>
-                            GoTrip is a project that I built with Vanilla JavaScript, CSS, Node.js, Express.js, MongoDB, and AWS. It is a full-stack web application that allows users to search for national parks around the country and get detailed information about them. Users can also create their own trips and add parks to their trips.
+                            TrachePass is a mobile app that supports young patients who had tracheotomy surgery to receive better medical care. It is a project that I worked for the Great Ormond Street Hospital for Children (GOSH) in London when I was anticipating the UCL industry exchange program.
+                        </p>
+                        <p className='text-start px-4'>
+                            Github: <a href='https://github.com/chrischen96/TrachePass' target='_blank' rel="noreferrer">TrachePass repo</a>
                         </p>
                     </div>
                     <div className="col-12">
-                        <div className="resume-item text-start">
-                            <img className='w-100' src={gotrip} alt="" />
+                        <div className="resume-pic d-flex align-items-center mb-5">
+                            <iframe width="100%" height="550" src="https://www.youtube.com/embed/Ak0II9Px32o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

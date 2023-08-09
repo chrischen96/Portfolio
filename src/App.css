@@ -51,20 +51,20 @@
 }
 
 .scrollspy {
-  height: calc(100vh - 118px);
+  height: calc(100vh - 124px);
   position: relative;
   overflow-y: scroll
 }
 
 @media screen and (max-width: 575px) {
   .scrollspy {
-    height: calc(100vh - 157px);
+    height: calc(100vh - 163px);
   }
 }
 
 @media screen and (max-width: 483px) {
   .scrollspy {
-    height: calc(100vh - 219px);
+    height: calc(100vh - 225px);
   }
 }
 
@@ -186,7 +186,22 @@ article {
 }
 
 /* projects */
+.resume-pic {
+  border-radius: 8px;
+  margin: 0 1em;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
 
+.resume-pic img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row .col-12 {
+  background-color: white;
+}
 
 /* footer */
 .footer {
