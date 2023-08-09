@@ -152,14 +152,14 @@ article {
 }
 
 .edu .filter {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
   height: 100%;
   width: 100%;
-  padding: 45px;
+  padding: 40px;
 }
 
 .edu .resume-item {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 
@@ -171,16 +171,21 @@ article {
 }
 
 .exp .filter {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
   height: 100%;
   width: 100%;
-  padding: 45px;
+  padding: 40px;
 }
 
 .exp .resume-item {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
+.resume-desc {
+  font-size: 1.1em;
+}
+
+/* projects */
 
 
 /* footer */

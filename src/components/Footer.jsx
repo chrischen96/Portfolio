@@ -12,7 +12,7 @@ const Footer = () => {
             </h6>
             <h6 className='mx-3 my-0'>
               <i className="bi bi-envelope me-2"></i>
-              xinchen.20@ucl.ac.uk
+              xin_chen.20@ucl.ac.uk
             </h6>
             <ul className="list-unstyled d-flex ms-auto my-0">
               <li className="ms-3"><a className="link-body-emphasis" href="#"><i className="bi bi-linkedin"></i></a></li>
