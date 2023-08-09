@@ -95,7 +95,7 @@ const Projects = () => {
                     </div>
                     <div className="col-12">
                         <div className="resume-pic d-flex align-items-center mb-5">
-                            <iframe width="100%" height="550" src="https://www.youtube.com/embed/Ak0II9Px32o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="100%" height="550" src="https://www.youtube.com/embed/Ak0II9Px32o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
