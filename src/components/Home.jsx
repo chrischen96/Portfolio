@@ -11,7 +11,7 @@ const About = () => {
                         <div className="card-body">
                             <h2 className="card-title">About Me</h2>
                             <p className="card-text fs-5">
-                                As a software engineer with a background in geographical information science, I am passionate about building software that empowers people to solve problems, have bigger potential, and do great things in their lives. I am a quick learner and a team player, always eager to learn new technologies and skills.
+                                As a software engineer with a background in computer science and geographical information science, I am passionate about building softwares that empower people to solve problems, reach full potential, and do great things. I am a quick learner and a team player, always eager to learn new technologies and skills.
                             </p>
                         </div>
                         <div className="card-body" id='invis-port'>
