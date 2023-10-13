@@ -25,7 +25,7 @@ const Projects = () => {
                             The frontend (React), backend (Django), and database (PostgreSQL) are all hosted to Railway. The backend is connected to PostgreSQL and AWS S3. Each time a photo record (row) is created, automatically the posted photo will be uploaded to the AWS S3 Bucket as static file and the file link will be stored to the database. The frontend is connected to the backend through RESTful API. And it is responsive to different screen sizes.
                         </p>
                         <p className='text-start px-4'>
-                            Deployed website: <a href='https://gallery-production.up.railway.app/' target='_blank' rel="noreferrer">MyGallery</a> <br />
+                            Deployed website: <a href='https://mygallery.up.railway.app/' target='_blank' rel="noreferrer">MyGallery</a> <br />
                             Github: <a href='https://github.com/chrischen96/MyGallery' target='_blank' rel="noreferrer">MyGallery repo</a>
                         </p>
                     </div>
